@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+            .box{width: 100px; height: 100px; background: red}
+            .container{display: flex; justify-content: flex-start;  height: 200px; gap: 5px}
+            .container2{display: flex; justify-content: flex-end;  height: 200px; gap: 5px}
+            .container3{display: flex; justify-content: center; height: 200px; gap: 5px}
+            .container4{display: flex; justify-content: space-between; height: 200px; gap: 5px}
+            .container5{display: flex; justify-content: space-around; height: 200px; gap: 5px}
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="container2">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="container3">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="container4">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="container5">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </body>
+</html>
